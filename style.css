@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template: 25% 75% / 20% 80%;
+}
+.sidebar {
+  background-color: #1893d3;
+  grid-area: 1 / 1 / 3 / 2;
+}
+.header {
+  background-color: #ffffff;
+  grid-area: 1 / 2 / 2 / 3;
+}
+.main-content {
+  background-color: #e2e8f0;
+  grid-area: 2 / 2 / 3 / 3;
+}
