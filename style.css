@@ -40,6 +40,8 @@ ul li {
 .header {
   background-color: #ffffff;
   grid-area: 1 / 2 / 2 / 3;
+  display: grid;
+  grid-template: 2fr 3fr / 3fr 2fr;
 }
 .main-content {
   background-color: #e2e8f0;
