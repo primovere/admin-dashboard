@@ -30,12 +30,12 @@ ul li {
   border: 1px solid red;
 }
 .title {
-  font-size: 30px;
+  font-size: 2rem;
   position: relative;
   right: 10px;
 }
 .main-feature, .minor-feature {
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 .header {
   background-color: #ffffff;
@@ -46,4 +46,34 @@ ul li {
 .main-content {
   background-color: #e2e8f0;
   grid-area: 2 / 2 / 3 / 3;
+  display: grid;
+  gap: 1rem;
+  grid-template: 1fr 1fr / 3fr 1fr;
+  padding: 2rem 1rem 3rem 1rem;
+}
+.main-content div {
+  border: 1px solid black ;
+}
+.project {
+  grid-area: 1 / 1 / 3 / 2;
+  display: grid;
+  grid-template:  1fr 9fr / 1fr 1fr;
+}
+.project .section-name {
+  grid-area: 1 / 1 / 2 / 3;
+  font-size: 1.5rem;
+
+  /* make the box size's height is equal to text's */
+  /* align-self: start; */
+  /* margin-top: 100px; */
+  grid-template: 1
+}
+.cards {
+  display: grid;
+  grid-area: 2 / 1 / 3 / 3;
+  /* align-self: stretch; */
+  grid-template-columns: repeat(auto-fit, minmax(10vw, 1fr));
+}
+.card {
+  height: 200px;
 }
