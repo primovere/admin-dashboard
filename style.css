@@ -7,7 +7,8 @@
 .container {
   display: grid;
   background-color: yellow;
-  grid-template-columns: 0.9fr 5fr;
+  /* grid-template-columns: 0.9fr 5fr; */
+  grid-template-columns: 250px auto;
 }
 .sidebar {
   background-color: #1893d3;
@@ -219,7 +220,7 @@ input[type='search'] {
 .sidebar,
 .user-info > p + p,
 .top-buttons,
-.blue-buttons,
+.blue-buttons button,
 .card p:nth-of-type(1),
 .announcements p:nth-child(1) {
   font-weight: 700;
