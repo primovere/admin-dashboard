@@ -1,8 +1,8 @@
 # admin-dashboard
-![admin-board](https://raw.githubusercontent.com/primovere/admin-dashboard/main/img/screenshot.png)
+![admin-dashboard](https://raw.githubusercontent.com/primovere/admin-dashboard/main/img/screenshot.png)
 
 ## Links
-- [Admin Board](https://primovere.github.io/admin-dashboard/)
+- [Admin Dashboard](https://primovere.github.io/admin-dashboard/)
 
 ## About
 An admin dashboard created with HTML and CSS (Grid).
